@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>I LOVE YOU!</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="shortcut icon" type="image/x-icon" href="title_ico.ico" />
+  </head>
+  <body onload="showSlides()" onload="">
+    <audio controls>
+  <source src="rnttro.mp3" type="audio/mp3">
+</audio>
+<h2 style="text-align:center;">Skru op!</h2>
+
+<!-- Paraphrase -->
+    <h1 class="box">Jeg ELSKER dig!</h1>
+
+    <div class="center">
+        <img src="images\Yndlings.jpg" alt="Mig og min elskede til Idas barnedåb" style="width:75%;height:auto;" class="cuteBox">
+    </div>
+<!-- Paraphrase -->
+    <!--
+        |||||| ||||||
+      |||||||||||||||||
+     |||||||||||||||||||
+      ||||||||||||||||
+       |||||||||||||
+        ||||||||||
+         |||||||
+          ||||
+           ||
+  -->
+  <!-- Paraphrase -->
+    <div class="p5box">
+      <iframe scrolling="no" src="p5/empty-example/index.html" width="500px" height="100px"></iframe>
+    </div>
+<!-- Paraphrase -->
+
+<!-- Paraphrase -->
+    <div style="width:auto;height:auto;">
+      <img src="images/Nytår.jpg" alt="En dejlig nytårsaften med min skønne skat <3" style="width:63%;position:absolute;right:1.8%; left" class="cuteBox">
+      <img src="images/Drengene.jpg" style="width:33%;" alt="Dine to drenge i færd med det umulige!" class="cuteBox">
+      <h2 class="box">"Right next to the right one"</h2>
+    </div>
+<!-- Paraphrase -->
+
+<!-- Paraphrase -->
+ <div class="row">
+  <div class="column">
+    <img src="images/Messenger_kog_003.jpg" alt="Snow" style="width:100%" class="cuteBox">
+  </div>
+  <div class="column">
+    <img src="images/Messenger_kog_001.jpg" alt="Forest" style="width:100%" class="cuteBox">
+  </div>
+  <div class="column">
+    <img src="images/Messenger_kog_002.jpg" alt="Mountains" style="width:100%" class="cuteBox">
+  </div>
+</div>
+<!-- Paraphrase -->
+
+
+<div class="row">
+  <h1 class="box">"DEJsklækkerlig!"</h1>
+  <!-- Paraphrase -->
+   <div class="row">
+    <div class="column">
+      <img src="images/Idas_dåb_001.jpg" alt="Snow" style="width:100%" class="cuteBox">
+    </div>
+    <div class="column">
+      <img src="images/Idas_dåb_003.jpg" alt="Forest" style="width:100%" class="cuteBox">
+    </div>
+    <div class="column">
+      <img src="images/Idas_dåb_002.jpg" alt="Mountains" style="width:100%" class="cuteBox">
+    </div>
+  </div>
+  <!-- Paraphrase -->
+  <div style="width:100%;">
+    <h1 class="box">Mit blåbær</h1>
+    <img src="images/Photoshop madness.png" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 40%;width:75%;">
+  </div>
+</div>
+<!-- Paraphrase -->
+<!-- Paraphrase -->
+
+
+<!-- Slideshow! -->
+<!-- JavaScript -->
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 42</div>
+    <img src="images/slideshow/slide_001.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+    <div class="text">Du er en skat!</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 42</div>
+  <img src="images/slideshow/slide_002.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+    <div class="text">Aquaman!</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 42</div>
+    <img src="images/slideshow/slide_003.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+    <div class="text">Smukke!</div>
+  </div>
+
+  <div class="mySlides fade">
+      <div class="numbertext">4 / 42</div>
+      <img src="images/slideshow/slide_004.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+      <div class="text">Min!</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">5 / 42</div>
+        <img src="images/slideshow/slide_005.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Pandekager? Ja tak!</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">6 / 42</div>
+        <img src="images/slideshow/slide_006.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 75%">
+        <div class="text">God røv ;)</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">7 / 42</div>
+        <img src="images/slideshow/slide_007.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Savner dig fandme så meget!</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">8 / 42</div>
+        <img src="images/slideshow/slide_008.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">182 dage med dig!</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">9 / 42</div>
+        <img src="images/slideshow/slide_009.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Vi er ret vovede!</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">10 / 42</div>
+        <img src="images/slideshow/slide_010.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Varmt kildevand snart?</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">11 / 42</div>
+        <img src="images/slideshow/slide_011.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Du er min forevigt hvis du vil</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">12 / 42</div>
+        <img src="images/slideshow/slide_012.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Til solen stiger i vest</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">13 / 42</div>
+        <img src="images/slideshow/slide_013.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">"Sidste skoledag</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">14 / 42</div>
+        <img src="images/slideshow/slide_014.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Lovebox på stranden</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">15 / 42</div>
+        <img src="images/slideshow/slide_015.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Solnedgang på stranden</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">16 / 42</div>
+        <img src="images/slideshow/slide_016.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Tæppe og en mark?</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">17 / 42</div>
+        <img src="images/slideshow/slide_017.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Efterskole besøg snart!</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">18 / 42</div>
+        <img src="images/slideshow/slide_0018.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">another round</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">19 / 42</div>
+        <img src="images/slideshow/slide_019.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">"Plan our escape"</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">20 / 42</div>
+        <img src="images/slideshow/slide_020.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Hmm.. Ja.. Altså..</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">21 / 42</div>
+        <img src="images/slideshow/slide_021.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Skal du ikke lige smage sovsen Magnus?</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">22 / 42</div>
+        <img src="images/slideshow/slide_022.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Emils dakkedak</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">23 / 42</div>
+        <img src="images/slideshow/slide_023.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Skal du have et glas rødvin</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">25 / 42</div>
+        <img src="images/slideshow/slide_025.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">... Må man have sex til en barndåb?</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">26 / 42</div>
+        <img src="images/slideshow/slide_026.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Shhhhh</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">27 / 42</div>
+        <img src="images/slideshow/slide_027.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Til! til til til til!!</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">28 / 42</div>
+        <img src="images/slideshow/slide_028.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Din flødefyr</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">29 / 42</div>
+        <img src="images/slideshow/slide_029.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Jeg koger så jeg står lige med hovedet ude af vinduet</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">30 / 42</div>
+        <img src="images/slideshow/slide_030.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">"Nogle gange ville jeg ønske at væggen havde en mund, det ville gøre alt nemmere"</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">31 / 42</div>
+        <img src="images/slideshow/slide_031.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Er så glad for at jeg kan være ærlig med dig om alt</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">32 / 42</div>
+        <img src="images/slideshow/slide_032.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Tak for din støtte skat! Det betyder så meget</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">33 / 42</div>
+        <img src="images/slideshow/slide_033.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Der er ingen der kan gøre mig så glad som du kan!</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">34 / 42</div>
+        <img src="images/slideshow/slide_034.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Du har en uendelig kys koupon, husk at bruge den lige når du vil!</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">35 / 42</div>
+        <img src="images/slideshow/slide_035.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Vi kan klare alt skat!</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">36 / 42</div>
+        <img src="images/slideshow/slide_036.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Sammen er vi stærkere</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">37 / 42</div>
+        <img src="images/slideshow/slide_037.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Plz bliv gammel med mig</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">38 / 42</div>
+        <img src="images/slideshow/slide_038.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Fuck alt andet, så længe jeg har dig er jeg glad</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">39 / 42</div>
+        <img src="images/slideshow/slide_039.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Sender kys og kram</div>
+  </div>
+
+  <div class="numbertext">40 / 42</div>
+  <div class="mySlides fade">
+        <img src="images/slideshow/slide_040.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Glædelig</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">41 / 42</div>
+        <img src="images/slideshow/slide_041.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">6</div>
+  </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">42 / 42</div>
+        <img src="images/slideshow/slide_042.jpg" class="cuteBox" style="display: block;margin-left:auto;margin-right: auto;width: 50%">
+        <div class="text">Måneder</div>
+  </div>
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
+  <span class="dot" onclick="currentSlide(10)"></span>
+  <span class="dot" onclick="currentSlide(11)"></span>
+  <span class="dot" onclick="currentSlide(12)"></span>
+  <span class="dot" onclick="currentSlide(13)"></span>
+  <span class="dot" onclick="currentSlide(14)"></span>
+  <span class="dot" onclick="currentSlide(15)"></span>
+  <span class="dot" onclick="currentSlide(16)"></span>
+  <span class="dot" onclick="currentSlide(17)"></span>
+  <span class="dot" onclick="currentSlide(18)"></span>
+  <span class="dot" onclick="currentSlide(19)"></span>
+  <span class="dot" onclick="currentSlide(20)"></span>
+  <span class="dot" onclick="currentSlide(21)"></span>
+  <span class="dot" onclick="currentSlide(22)"></span>
+  <span class="dot" onclick="currentSlide(23)"></span>
+  <span class="dot" onclick="currentSlide(24)"></span>
+  <span class="dot" onclick="currentSlide(25)"></span>
+  <span class="dot" onclick="currentSlide(26)"></span>
+  <span class="dot" onclick="currentSlide(27)"></span>
+  <span class="dot" onclick="currentSlide(28)"></span>
+  <span class="dot" onclick="currentSlide(29)"></span>
+  <span class="dot" onclick="currentSlide(30)"></span>
+  <span class="dot" onclick="currentSlide(31)"></span>
+  <span class="dot" onclick="currentSlide(32)"></span>
+  <span class="dot" onclick="currentSlide(33)"></span>
+  <span class="dot" onclick="currentSlide(34)"></span>
+  <span class="dot" onclick="currentSlide(35)"></span>
+  <span class="dot" onclick="currentSlide(36)"></span>
+  <span class="dot" onclick="currentSlide(37)"></span>
+  <span class="dot" onclick="currentSlide(38)"></span>
+  <span class="dot" onclick="currentSlide(39)"></span>
+  <span class="dot" onclick="currentSlide(40)"></span>
+  <span class="dot" onclick="currentSlide(41)"></span>
+</div>
+
+  <h1 class="box">Jeg elsker dig skat, elsker dig altid!</h1>
+
+<!-- More pictures!! plz work  -->
+<div class="row">
+  <div class="column">
+      <img src="images/Idas_dåb_004.jpg" alt="Snow" style="width:100%" class="cuteBox">
+  </div>
+  <div class="column">
+    <img src="images/Idas_dåb_005.jpg" alt="Snow" style="width:100%" class="cuteBox">
+  </div>
+  <div class="column">
+    <img src="images/Idas_dåb_006.jpg" alt="Snow" style="width:100%" class="cuteBox">
+  </div>
+</div>
+
+  <h1 class="box">Vi ses snart!</h1>
+
+<div class="row">
+  <img src="images/Idas_dåb_007.jpg" alt="Snow" style="width:100%" class="cuteBox">
+</div>
+
+
+  </body>
+</html>
